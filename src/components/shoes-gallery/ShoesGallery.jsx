@@ -1,9 +1,11 @@
 import React from 'react'
 import './ShoesGallery.css'
-import img3 from '../../assets/img1.jpg'
-import img4 from '../../assets/img2.jpg'
+import img1 from '../../assets/img1.jpg'
+import img2 from '../../assets/img2.jpg'
 import { GoArrowRight } from 'react-icons/go'
 import img from '../../assets/logo.png'
+import img3 from '../../assets/img3.jpg'
+import img4 from '../../assets/img4.jpg'
 
 
 const ShoesGallery = () => {
@@ -23,10 +25,10 @@ const ShoesGallery = () => {
 
  <div className="img-container1">
       <div className="img-div1">
-        <img src={img3} />
+        <img src={img1} />
       </div>
       <div className="img-div1">
-      <img src={img4} />
+      <img src={img2} />
       </div>
 
       <div className="img-div1">
