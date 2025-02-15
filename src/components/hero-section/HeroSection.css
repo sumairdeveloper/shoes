@@ -1,0 +1,53 @@
+.hero-section{
+    height: 130vh;
+    width: 100%;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    line-height: 5rem;
+}
+.text1{
+    font-size: 5rem;
+    margin-left: 42rem;
+}
+.text2{
+    font-size: 5rem;
+    margin-left: 35rem;
+    display: flex;
+    
+}
+
+.img{
+    height: 100px;
+    width: 100px;
+}
+
+.img-div{
+    height: 30rem;
+    width: 40rem;
+    border:2px solid purple;
+}
+.img-container{
+    display: flex;
+    gap: 2rem;
+    margin:2rem 18rem;
+
+}
+.img-div>img{
+    width: 100%;
+    height: 100%;
+}
+
+.btn{
+    font-size: 3rem;
+    align-items: center;
+    border-radius: 3rem;
+    width: 5rem;
+    height: 5rem;
+    padding-top: 8px;
+    margin-left: 60rem;
+}
+
+
